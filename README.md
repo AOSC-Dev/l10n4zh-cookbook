@@ -1,41 +1,14 @@
-# Website
+# 大陆简中自由软件本地化工作指南（站点版本）
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+> 本项目及其部署站点皆处于起草阶段，欢迎任何积极的建议。  
+> 本站内容若无特殊备注，均采用 [CC BY-NC-SA 3.0 Unported](https://creativecommons.org/licenses/by-nc-sa/3.0/) 进行许可。
 
-### Installation
+## 项目简介
 
-```
-$ yarn
-```
+- 本项目旨在为简中自由软件本地化工作者提供一般性指引
+- 本项目由发行自[安同开源社区](https://github.com/AOSC-Dev/)的[《大陆简中自由软件本地化工作指南》（PDF 版本）](https://repo.aosc.io/aosc-l10n/zh_CN_l10n.pdf)演变而来
 
-### Local Development
+## 项目站点职能（筹）
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- 提供大陆简中自由软件本地化工作指南文档
+- 提供简中本地化工作相关的博客内容分享
