@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'L10n4ZH-Cookbook',
-  tagline: '这是一本在线的大陆简中自由软件本地化工作指南',
+  title: '大陆简中自由软件本地化工作指南',
+  tagline: '本站点目前处于起草阶段，欢迎各位访客提出任何积极的建议',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -74,9 +74,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '文档',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
           {
             href: 'https://github.com/lwantao/l10n4zh-cookbook/',
             label: 'GitHub',
