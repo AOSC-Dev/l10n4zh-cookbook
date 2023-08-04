@@ -90,32 +90,36 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '推荐阅读',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '版本更新历史',
+                to: '/docs/intro#版本更新历史',
+              },
+              {
+                label: '大陆简中自由软件本地化工作指南（PDF 版）',
+                href: 'https://repo.aosc.io/aosc-l10n/zh_CN_l10n.pdf',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '相关社区',
             items: [
               {
-                label: 'AOSC',
+                label: '安同开源社区 (AOSC)',
                 href: 'https://aosc.io',
               }
             ],
           },
           {
-            title: 'More',
+            title: '关于本站',
             items: [
               {
-                label: 'Blog',
+                label: '站内博客',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
+                label: 'GitHub 仓库',
                 href: 'https://github.com/lwantao/l10n4zh-cookbook/',
               },
             ],
