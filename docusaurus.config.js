@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/lwantao/l10n4zh-cookbook/',
+            'https://github.com/lwantao/l10n4zh-cookbook/blob/master/',
         },
         blog: {
           showReadingTime: true,
