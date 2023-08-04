@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>L10n4ZH-Cookbook Blog</title>
+        <title>大陆简中自由软件本地化工作指南 Blog</title>
         <link>https://lwantao.github.io/l10n4zh-cookbook/blog</link>
-        <description>L10n4ZH-Cookbook Blog</description>
+        <description>大陆简中自由软件本地化工作指南 Blog</description>
         <lastBuildDate>Fri, 04 Aug 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
