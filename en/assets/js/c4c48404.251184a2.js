@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkl_10_n_4_zh_cookbook=self.webpackChunkl_10_n_4_zh_cookbook||[]).push([[973],{5401:o=>{o.exports=JSON.parse('{"permalink":"/l10n4zh-cookbook/en/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

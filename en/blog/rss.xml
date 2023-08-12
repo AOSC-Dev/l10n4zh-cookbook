@@ -4,10 +4,19 @@
         <title>大陆简中自由软件本地化工作指南 Blog</title>
         <link>https://lwantao.github.io/l10n4zh-cookbook/en/blog</link>
         <description>大陆简中自由软件本地化工作指南 Blog</description>
-        <lastBuildDate>Fri, 04 Aug 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 12 Aug 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[站点“硬装修”待办清单]]></title>
+            <link>https://lwantao.github.io/l10n4zh-cookbook/en/blog/interior-finish_todolist</link>
+            <guid>https://lwantao.github.io/l10n4zh-cookbook/en/blog/interior-finish_todolist</guid>
+            <pubDate>Sat, 12 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[页面解释]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="页面解释">页面解释<a href="#页面解释" class="hash-link" aria-label="Direct link to 页面解释" title="Direct link to 页面解释">​</a></h2><ul><li>硬装修：指基于 Docusaurus 平台进行功能性改造，使其符合本站点的需求，形象地比喻为家居装修中的“硬装修”。</li><li>待办清单：未打勾的 Checkbox 为目前尚未完成的预期功能，具体目标进程请见本站点对应 GitHub 仓库中的 PR 页面。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="待办清单">待办清单<a href="#待办清单" class="hash-link" aria-label="Direct link to 待办清单" title="Direct link to 待办清单">​</a></h2><ul class="contains-task-list containsTaskList_mC6p"><li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->汉字文本内容的首行缩进功能<ul><li>问题描述：Docusaurus 的 Markdown 渲染器似乎不支持汉字的首行缩进，而使用 <code>emsp;</code> 之类 HTML 中的空格实体虽能实现文章中的首行缩进，但<a href="/l10n4zh-cookbook/en/docs/category/第一章-工作流程">在每一章的索引页中并不会被渲染</a>，不太美观。</li></ul></li></ul>]]></content:encoded>
+            <category>站点更新日志</category>
+        </item>
         <item>
             <title><![CDATA[欢迎访问]]></title>
             <link>https://lwantao.github.io/l10n4zh-cookbook/en/blog/welcome</link>
