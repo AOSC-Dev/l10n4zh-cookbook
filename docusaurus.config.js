@@ -64,6 +64,14 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+      announcementBar: {
+        id: 'help_wanted',
+        content:
+          '🚧本站点目前处于起草阶段，欢迎各位访客提出任何积极的建议!',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: false,
+      },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'L10n4ZH-Cookbook',
