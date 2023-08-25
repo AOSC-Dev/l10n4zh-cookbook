@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '大陆简中自由软件本地化工作指南',
   tagline: '本站点由发行自安同开源社区的《大陆简中自由软件本地化工作指南》（PDF 版本）演变而来',
-  favicon: 'img/favicon.ico',
+  favicon: ' ',
 
   // Set the production url of your site here
   url: 'https://l10n.vantao.cn',
@@ -75,10 +75,10 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'L10n4ZH-Cookbook',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        // logo: {
+        //   alt: 'My Site Logo',
+        //   src: 'img/logo.svg',
+        // },
         items: [
           {
             type: 'docSidebar',
