@@ -21,8 +21,8 @@ function HeroBanner() {
           <Link className="button button--primary button--lg" to="/docs/intro">
             开始阅读本地化指南 - 封面
           </Link>
-          <Link className="button button--secondary button--lg" to="/docs/intro">
-            项目贡献
+          <Link className="button button--secondary button--lg" to="https://repo.aosc.io/aosc-l10n/zh_CN_l10n.pdf">
+            阅读 PDF 版本 (1.5.4)
           </Link>
       </div>
     </div>
