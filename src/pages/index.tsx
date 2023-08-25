@@ -3,26 +3,29 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import MaintainerList from '@site/src/components/MaintainerList';
 
 import styles from './index.module.css';
 
-function HomepageHeader() {
+function HeroBanner() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            开始阅读 - 封面
-          </Link>
-        </div>
+    <div className={styles.heroBanner}>
+      <div className={styles.heroBannerTitle}>
+            {siteConfig.title}
       </div>
-    </header>
+      <div className={styles.heroBannerTagline}>
+            {siteConfig.tagline}
+      </div>
+      <div className={styles.buttons}>
+          <Link className="button button--primary button--lg" to="/docs/intro">
+            开始阅读本地化指南 - 封面
+          </Link>
+          <Link className="button button--secondary button--lg" to="/docs/intro">
+            项目贡献
+          </Link>
+      </div>
+    </div>
   );
 }
 
@@ -30,12 +33,13 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`起草阶段`}
+      title={siteConfig.title}
       description="本站点目前处于起草阶段">
-      <HomepageHeader />
-      {/* <main> */}
-        {/* <HomepageFeatures /> */}
-      {/* </main> */}
+      <HeroBanner />
+      <div className={styles.MaintainerListTitle}>维护单位</div>
+      <main>
+        <MaintainerList />
+      </main>
     </Layout>
   );
 }
