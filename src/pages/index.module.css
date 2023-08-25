@@ -67,6 +67,18 @@ html[data-theme='dark'] .topBannerTitleText {
   margin: 1rem 0;
 }
 
+.badgeWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .MaintainerListTitle{
   display: flex;
   color: #b3b3b3;
