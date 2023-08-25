@@ -31,11 +31,11 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`起草阶段`}
-      description="Description will go into a meta tag in <head />">
+      description="本站点目前处于起草阶段">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      {/* <main> */}
+        {/* <HomepageFeatures /> */}
+      {/* </main> */}
     </Layout>
   );
 }
