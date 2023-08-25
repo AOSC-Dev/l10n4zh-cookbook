@@ -2,13 +2,13 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
-type FeatureItem = {
+type MaintainerItem = {
   title: string;
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
 };
 
-const FeatureList: FeatureItem[] = [
+const Maintainer_List: MaintainerItem[] = [
   {
     title: '安同开源社区 (AOSC)',
     Svg: require('@site/static/img/aosc.svg').default,
@@ -21,11 +21,11 @@ const FeatureList: FeatureItem[] = [
   }
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Maintainer({title, Svg, description}: MaintainerItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <Svg className={styles.maintainerSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
@@ -35,13 +35,13 @@ function Feature({title, Svg, description}: FeatureItem) {
   );
 }
 
-export default function HomepageFeatures(): JSX.Element {
+export default function MaintainerList(): JSX.Element {
   return (
-    <section className={styles.features}>
+    <section className={styles.maintainers}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {Maintainer_List.map((props, idx) => (
+            <Maintainer key={idx} {...props} />
           ))}
         </div>
       </div>
