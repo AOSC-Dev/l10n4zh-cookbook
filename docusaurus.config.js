@@ -72,7 +72,7 @@ const config = {
         textColor: '#091E42',
         isCloseable: false,
       },
-      image: 'img/docusaurus-social-card.jpg',
+      image: ' ',
       navbar: {
         title: 'L10n4ZH-Cookbook',
         // logo: {
