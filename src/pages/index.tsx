@@ -33,7 +33,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={siteConfig.title}
+      title= "起草阶段"
       description="本站点目前处于起草阶段">
       <HeroBanner />
       <div className={styles.MaintainerListTitle}>维护单位</div>
