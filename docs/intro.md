@@ -11,6 +11,20 @@ sidebar_position: 1
 
 本文档提供自由软件本地化的一般性指引，主要包含 Gettext 翻译的编辑、验证和提交，以及目前较通行的写作风格信息和格式建议。
 
+## 版权信息
+
+```text
+Copyright © 2009 Aron Xu <happyaronxu@gmail.com>  
+Copyright © 2015-2016 Mingye Wang <arthur2e5@aosc.xyz>  
+Copyright © 2010 Pellaeon Lin <nfsmwlin@gmail.com> (zh_Hant)  
+Copyright © 2010 Cheng-Chia Tseng <pswo10680@gmail.com> (zh_Hant)  
+Copyright © 2012 Xuetian Weng (csslayer, ikde how-to-translate)  
+Copyright © 2017 Mingcong Bai <jeffbai@aosc.xyz>  
+Copyright © 2016 Lion Yang <lion@aosc.xyz>
+```
+
+你可以自由分享、修改本文档，然而需要保留署名、使用同样或兼容协议共享且不可用于商业用途。
+
 ## 版本更新历史
 
 ### 1.5 (2016-01-17)
@@ -50,17 +64,3 @@ sidebar_position: 1
 ### 1.0 (2009-08-26)
 
 初始版本，[原网页](https://docs.google.com/document/d/1vGzsxjRX7V5XarZdeSWV5Jj5YEbrUECe3zYDwVBVf4o)以 Google Docs 发布于 i18n-zh。
-
-## 版权信息
-
-```text
-Copyright © 2009 Aron Xu <happyaronxu@gmail.com>  
-Copyright © 2015-2016 Mingye Wang <arthur2e5@aosc.xyz>  
-Copyright © 2010 Pellaeon Lin <nfsmwlin@gmail.com> (zh_Hant)  
-Copyright © 2010 Cheng-Chia Tseng <pswo10680@gmail.com> (zh_Hant)  
-Copyright © 2012 Xuetian Weng (csslayer, ikde how-to-translate)  
-Copyright © 2017 Mingcong Bai <jeffbai@aosc.xyz>  
-Copyright © 2016 Lion Yang <lion@aosc.xyz>
-```
-
-你可以自由分享、修改本文档，然而需要保留署名、使用同样或兼容协议共享且不可用于商业用途。
