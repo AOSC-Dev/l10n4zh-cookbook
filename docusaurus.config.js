@@ -133,7 +133,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} LWanTao. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 所有参与贡献者. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
