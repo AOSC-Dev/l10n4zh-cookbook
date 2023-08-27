@@ -79,10 +79,18 @@ html[data-theme='dark'] .topBannerTitleText {
   justify-content: center;
 }
 
-.MaintainerListTitle{
+.MaintenanceUnitListTitle{
   display: flex;
   color: #303846;
   align-items: center;
   justify-content: center;
   font-size: 25px;
+}
+
+.Maintainers{
+  display: flex;
+  color: #303846;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
 }
