@@ -36,11 +36,15 @@ export default function Home(): JSX.Element {
       title= "起草阶段"
       description="本站点目前处于起草阶段">
       <HeroBanner />
-      <div className={styles.MaintenanceUnitListTitle}>维护单位</div>
+      <div className={styles.MaintenanceUnitListTitle}>
+        维护单位
+      </div>
+      <div className={styles.Maintainers}>
+          <a href='/maintainers'>🔗 具体维护人员及联系方式</a>
+      </div>
       <main>
         <MaintainerList />
       </main>
-      <div className={styles.Maintainers}><a href='/maintainers'>🔗 具体维护人员及联系方式</a></div>
     </Layout>
   );
 }

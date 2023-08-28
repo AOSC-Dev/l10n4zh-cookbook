@@ -81,10 +81,24 @@ html[data-theme='dark'] .topBannerTitleText {
 
 .MaintenanceUnitListTitle{
   display: flex;
-  color: #303846;
+  color: #ffffff;
+  letter-spacing: 5px;
+  font-weight: bold;
+  background: #bababa;
   align-items: center;
   justify-content: center;
-  font-size: 25px;
+  font-size: 23px;
+}
+
+html[data-theme='dark'] .MaintenanceUnitListTitle{
+  display: flex;
+  color: #1b1b1d;
+  letter-spacing: 5px;
+  font-weight: bold;
+  background: #bababa;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
 }
 
 .Maintainers{
@@ -92,5 +106,5 @@ html[data-theme='dark'] .topBannerTitleText {
   color: #303846;
   align-items: center;
   justify-content: center;
-  font-size: 15px;
+  font-size: 14px;
 }
