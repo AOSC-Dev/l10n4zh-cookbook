@@ -109,6 +109,10 @@ const config = {
                 label: '大陆简中自由软件本地化工作指南（PDF 版）',
                 href: 'https://repo.aosc.io/aosc-l10n/zh_CN_l10n.pdf',
               },
+              {
+                label: '项目贡献准则（长期征求意见稿）',
+                href: '/contribution'
+              }
             ],
           },
           {
