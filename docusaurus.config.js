@@ -87,6 +87,7 @@ const config = {
             label: '文档',
           },
           {to: '/blog', label: '博客', position: 'left'},
+          {to: '/contribution', label: '参与建设', position: 'left'},
           {
             href: 'https://github.com/lwantao/l10n4zh-cookbook/',
             label: 'GitHub',
