@@ -2,7 +2,7 @@
     "label": "第二章 PO 文件格式和相关要求",
     "position": 3,
     "link": {
-      "type": "generated-index",
-      "description": "GNU Gettext 是 GNU 的本地化框架，主要内容是一个喂进去英文吐出来翻译文件中的对应值的一组 C 函数和处理翻译文件的诸多工具。"
+      "type": "doc",
+      "id": "AboutPOFiles/overview"
     }
   }
