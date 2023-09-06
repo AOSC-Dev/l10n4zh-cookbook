@@ -23,9 +23,22 @@ title: 项目贡献准则（长期征求意见稿）
 
 关于文章版本划分的具体实现方法，请参考 [Docusaurus 官方文档](https://docusaurus.io/zh-CN/docs/versioning)。
 
+### 2.2 Commit msg 格式
+
+> 未在下文中提及的内容均优先参考通用性规范，若有更好的建议也欢迎提出！
+
+由于本项目网站特殊，故需要对 Commit msg 格式在通用性规范的基础上进行适当修改以及重定义。
+
+#### 2.2.1 Commit Type 参考
+
+- **content**: 对文章内容的更新与修改
+- **feat**: 对站点框架结构的功能性更新
+- **fix**: 对站点框架结构的功能性修复
+
 ## 3 通用性规范
 
-> 本项目借用 [Angular 社区](https://github.com/angular)的 [Issue/PR 贡献规范](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-submission-guidelines)以及 [Commit msg 格式规范](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-commit-message-format)。
+> 本项目借用 [Angular 社区](https://github.com/angular)的 [Issue/PR 贡献规范](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-submission-guidelines)以及 [Commit msg 格式规范](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-commit-message-format)。  
+> 但对于 Commit msg 格式有部分修改，具体修改内容请见[本页面第 2.2 节](/contribution/#22-commit-msg-格式)。
 
 ### 3.1 提交 Issue
 
