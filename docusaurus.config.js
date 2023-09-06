@@ -38,6 +38,13 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          // disableVersioning: false,
+          // lastVersion: 'current',
+          versions: {
+            current: {
+              label: 'Canary 🚧',
+            },
+          },
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
           sidebarPath: require.resolve('./sidebars.js'),
@@ -88,6 +95,10 @@ const config = {
           },
           {to: '/blog', label: '博客', position: 'left'},
           {to: '/contribution', label: '参与建设', position: 'left'},
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
+          },
           {
             href: 'https://github.com/lwantao/l10n4zh-cookbook/',
             label: 'GitHub',
