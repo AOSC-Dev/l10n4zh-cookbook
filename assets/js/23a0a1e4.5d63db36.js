@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkl_10_n_4_zh_cookbook=self.webpackChunkl_10_n_4_zh_cookbook||[]).push([[720],{6240:o=>{o.exports=JSON.parse('{"label":"\u6d4b\u8bd5","permalink":"/blog/tags/\u6d4b\u8bd5","allTagsPath":"/blog/tags","count":3}')}}]);
