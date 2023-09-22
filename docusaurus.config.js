@@ -11,14 +11,14 @@ const config = {
   favicon: ' ',
 
   // Set the production url of your site here
-  url: 'https://l10n.vantao.cn',
+  url: 'https://aosc-dev.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/l10n4zh-cookbook/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'LWanTao', // Usually your GitHub org/user name.
+  organizationName: 'Anthon Open Source Community', // Usually your GitHub org/user name.
   projectName: 'l10n4zh-cookbook', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -51,14 +51,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/lwantao/l10n4zh-cookbook/blob/master/',
+            'https://github.com/aosc-dev/l10n4zh-cookbook/blob/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
-          //   'https://github.com/lwantao/l10n4zh-cookbook/',
+          //   'https://github.com/aosc-dev/l10n4zh-cookbook/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -100,7 +100,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/lwantao/l10n4zh-cookbook/',
+            href: 'https://github.com/aosc-dev/l10n4zh-cookbook/',
             label: 'GitHub',
             position: 'right',
           },
@@ -144,7 +144,7 @@ const config = {
               },
               {
                 label: 'GitHub 仓库',
-                href: 'https://github.com/lwantao/l10n4zh-cookbook/',
+                href: 'https://github.com/aosc-dev/l10n4zh-cookbook/',
               },
             ],
           },

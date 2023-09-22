@@ -42,7 +42,7 @@ title: 项目贡献准则（长期征求意见稿）
 
 ### 3.1 提交 Issue
 
-在你发现下列问题时，请你[前往项目仓库提交 Issue](https://github.com/LWanTao/l10n4zh-cookbook/issues)：
+在你发现下列问题时，请你[前往项目仓库提交 Issue](https://github.com/aosc-dev/l10n4zh-cookbook/issues)：
 
 - 发现站点**存在内容错误**，如：某个章节的具体陈述有误、站点内某处显示格式出错…
 - 认为**缺失**了能够明显提升站点效用的特性、文档内容…
