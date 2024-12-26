@@ -39,9 +39,6 @@ export default function Home(): JSX.Element {
       <div className={styles.MaintenanceUnitListTitle}>
         维护单位
       </div>
-      <div className={styles.Maintainers}>
-          <a href='maintainers'>🔗 具体维护人员及联系方式</a>
-      </div>
       <main>
         <MaintainerList />
       </main>

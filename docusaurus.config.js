@@ -143,13 +143,17 @@ const config = {
                 to: '/blog',
               },
               {
+                label: '站点维护者名单',
+                to: '/maintainers',
+              },
+              {
                 label: 'GitHub 仓库',
                 href: 'https://github.com/aosc-dev/l10n4zh-cookbook/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 所有参与贡献者. Built with Docusaurus.`,
+        copyright: `Copyright © 2023 - ${new Date().getFullYear()} 所有参与贡献者`,
       },
       prism: {
         theme: lightCodeTheme,
